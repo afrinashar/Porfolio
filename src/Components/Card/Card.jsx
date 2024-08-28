@@ -1,16 +1,18 @@
-import React from 'react'
-import './Card.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Card.css";
+import { Link } from "react-router-dom";
 
-const Card = ({emoji, heading, detail,links}) => {
+const Card = ({ emoji, heading, detail, links }) => {
   return (
     <div className="card">
-        <img src={emoji} alt="" />
-        <span>{heading}</span>
-        <span>{detail}</span>
-        <Link to={links} className=" btn c-button">LERAN MORE</Link>
+      <img src={emoji} alt="" />
+      <span>{heading}</span>
+      <span>{detail}</span>
+      <Link to={links} className="  ">
+        <button className=" button i-buttons">LERAN MORE</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

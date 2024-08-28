@@ -10,6 +10,7 @@ import c from "../../img/c0.png";
 import { Pagination } from 'swiper';
 import 'swiper/css/pagination';
 import 'swiper/css'
+import { Link } from 'react-router-dom';
 
 const Testimonials = () => {
 
@@ -63,9 +64,9 @@ It covers topics like getting data from an API and process using parameters or p
                     </SwiperSlide>
                 );
             })}
-        </Swiper>
-
-    </div>
+        </Swiper><Link to="Certificate"><button className=" button i-button">
+                   Certificates
+                </button> </Link> </div>
   );
 };
 

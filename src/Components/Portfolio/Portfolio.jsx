@@ -18,9 +18,9 @@ const Portfolio = () => {
 
         {/*heading*/}
 
-        <span style= {{color: darkMode? 'white': ''}}>Recent Projects</span>
-        <span>Portfilo</span>
-
+        <span style= {{color: darkMode? 'white': ''}}>Recent </span>
+        <span>Projects
+ </span>
         {/*slider*/}
 
         <Swiper
@@ -44,7 +44,9 @@ const Portfolio = () => {
             <a  href="https://three-js-game-tawny.vercel.app/" target="_blank"><img src={Musicapp} height={230} alt="" />
             </a>  </SwiperSlide>
         </Swiper>
-     <button> <Link to="projects"> Show more</Link></button>
+        <Link to="projects"><button className=" button i-button">
+                   More
+                </button> </Link>
     </div>
   );
 };

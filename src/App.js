@@ -15,6 +15,7 @@ import { Route,Routes } from "react-router";
 import Dashboard from "./Dashboard";
 import Projects from "./Components/Projects";
 import Certification from "./Certification";
+import { ProjectsAI } from "./Components/ProjectsAI";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -31,6 +32,7 @@ function App() {
   <Route exact path="/certificate" element={<Certification/>}  ></Route>
 
   <Route exact path="/projects" element={<Projects/>}  ></Route>
+  <Route exact path="/AIprojects" element={<ProjectsAI/>}  ></Route>
 
 </Routes>
        

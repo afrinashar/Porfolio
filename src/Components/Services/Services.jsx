@@ -2,9 +2,9 @@ import React from 'react'
 import './Services.css'
 import Heartemoji from "../../img/ai.png";
 import Card from '../Card/Card';
-import Glasses from "../../img/react.png";
-import Humble from "../../img/css.png";
-//import Resume from "./Devanand022.pdf"
+import Glasses from "../../img/rjs.png";
+import Humble from "../../img/node.png";
+import Resume from "./Afrin.pdf"
 import { themeContext } from '../../Context'
 import { useContext } from "react";
 import {motion} from 'framer-motion'
@@ -13,7 +13,6 @@ const Services = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     const transition = {duration : 1, type: 'spring'}
-    let Resume=""
   return (
     <div className="services" id='Services'>
         {/*left side */}
@@ -36,10 +35,10 @@ const Services = () => {
                 transition = {transition}
                 style={{left: '14rem'}}>
                 <Card
-                links={"design"}
+                links={"AIprojects"}
                 emoji = {Heartemoji}
-                heading = {'Design'}
-                detail = {"Expert in MERN stack development for robust web applications."}
+                heading = {'AI'}
+                detail = {"Revolutionizing interactions with advanced AI technologies."}
                 />
             </motion.div>
 
@@ -49,8 +48,8 @@ const Services = () => {
                 <Card
                    links={"projects"}
                 emoji = {Glasses}
-                heading = {'Developing'}
-                detail = {"Html, Css, Javascript, React, Figma, Sketch, Photoshop, Adobe, Adobe xd"}
+                heading = {'Web eveloping'}
+                detail = {"Creating dynamic and interactive web applications with React.js."}
                 />
             </div>
 
@@ -64,8 +63,8 @@ const Services = () => {
                 <Card
                    links={"projects"}
                 emoji = {Humble}
-                heading = {'UI/UX'}
-                detail = {"Crafting intuitive, engaging user experiences with a focus on aesthetic and functionality."}
+                heading = {'Full Stack'}
+                detail = {"Building comprehensive and scalable applications with full-stack development"}
                 />
             </motion.div>
 
