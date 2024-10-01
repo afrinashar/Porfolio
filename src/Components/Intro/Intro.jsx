@@ -411,7 +411,7 @@ const Intro = () => {
           className="floating-div"
         >
           {" "}
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="Software" txt2="Developer" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}

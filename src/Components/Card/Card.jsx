@@ -9,7 +9,7 @@ const Card = ({ emoji, heading, detail, links }) => {
       <span>{heading}</span>
       <span>{detail}</span>
       <Link to={links} className="  ">
-        <button className=" button i-buttons">LERAN MORE</button>
+        <button className=" button i-buttons">Projects</button>
       </Link>
     </div>
   );

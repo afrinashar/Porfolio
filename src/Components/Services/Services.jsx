@@ -46,9 +46,9 @@ const Services = () => {
 
             <div style={{top: '12rem', left: '-4rem'}}>
                 <Card
-                   links={"projects"}
+                   links={"frontend"}
                 emoji = {Glasses}
-                heading = {'Web eveloping'}
+                heading = {'Web Developing'}
                 detail = {"Creating dynamic and interactive web applications with React.js."}
                 />
             </div>
@@ -61,7 +61,7 @@ const Services = () => {
             transition = {transition}
             style={{top: '19rem', left: '12rem'}}>
                 <Card
-                   links={"projects"}
+                   links={"fullstack"}
                 emoji = {Humble}
                 heading = {'Full Stack'}
                 detail = {"Building comprehensive and scalable applications with full-stack development"}

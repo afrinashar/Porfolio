@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
@@ -24,8 +25,8 @@ const Portfolio = () => {
         {/*slider*/}
 
         <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
+        spaceBetween={-6}
+        slidesPerView={4}
         grabCursor={true}
         className='portfilo-slider'
         >
